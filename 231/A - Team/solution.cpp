@@ -1,0 +1,1 @@
+#include <iostream>using namespace std; int main() {    int n; // number of problems    cin >> n;     int count = 0;     for (int i = 0; i < n; i++) {        int a, b, c;          // declare variables        cin >> a >> b >> c;   // correct input         if (a + b + c >= 2) {            count++;        }    }     cout << count;  // print result    return 0;}
